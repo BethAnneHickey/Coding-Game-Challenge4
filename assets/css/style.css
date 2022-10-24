@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: blueviolet;
+}
+
+.startBtn,
+.info{
+    position: fixed;
+    top: 70;
+    left: 70;
+    transform: translate(-50%, -50%);
+}
+.startBtn button{
+    font-size: 30px;
+    font-weight: 600;
+    color: antiquewhite;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: yellowgreen;
+    cursor: pointer;
+}
+.info{
+    width: 600px;
+    background: paleturquoise;
+    border-radius: 20px;
+}
+.infoList{
+    height: 30px;
+    width: 80%;
+    border-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.infoList .button{
+    height: 30px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5 5px;
+    border-top: 0ch;
+
+}
